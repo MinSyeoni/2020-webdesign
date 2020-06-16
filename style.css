@@ -1,8 +1,79 @@
-.button{
-	color: black;
- 	text-decoration: none;
-	font-size: 18px;
-	border: 2px solid black;
-	box-sizing: border-box;
-	padding: 8px 40px;
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.hero-header {
+  position: relative;
+  height: 684px;
+  background-image: url("main_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ 
+}
+
+.hero-header .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#navbar {
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left : 0px;
+}
+
+#links{
+	padding :15px 20px;
+	position: absolute;
+	top:0;
+	right:0px;
+}
+
+#links a:not(:last-child){
+	margin-right: 10px;
+}
+#logo {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.info h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 60px;
+}
+
+.info h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.learn-more {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  padding: 8px 40px;
+}
+
+.learn-more:hover{
+	background-color: white;
+	color:black;
 }
