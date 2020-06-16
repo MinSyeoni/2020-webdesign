@@ -77,3 +77,68 @@ body {
 	background-color: white;
 	color:black;
 }
+
+.logo{
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+
+	.text{
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 20px;
+		
+	}
+
+	.text a{
+		font-size: 19px;
+		text-decoration: none;
+		color: #AAAAAA;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.text a:hover{
+		color: #881bdd;
+		text-decoration: none;
+	}
+
+	.text b{
+		color:black;
+		border-bottom: 4px solid  #881bdd;
+	}
+
+	.text-black{
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 20px;
+		
+	}
+
+	.text-black a{
+		font-size: 19px;
+		text-decoration: none;
+		color: #AAAAAA;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.text-black a:hover{
+		color: #881bdd;
+		text-decoration: none;
+	}
+
+	.text-black b{
+		color:white;
+		border-bottom: 4px solid  #881bdd;
+	}
+
+	.backgroundblack{
+		background-color: white;
+	}
+
+/*반응형으로 바꾸기*/
+	.profileimg{
+		margin-top:100px;
+		margin-left: 80px;
+	}
