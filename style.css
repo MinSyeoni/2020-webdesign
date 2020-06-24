@@ -142,3 +142,28 @@ body {
 		margin-top:100px;
 		margin-left: 80px;
 	}
+
+
+/*포폴 페이지 carousel*/
+	.carousel-item{
+		height: 450px;
+		background-color: gray;
+	}
+
+	.carousel-item.item1{
+		background-image: url('img/cooking.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.carousel-item.item2{
+		background-image: url('img/makeup.jpg');
+		background-size: cover;
+		background-position: center top;
+	}
+
+	.carousel-item.item3{
+		background-image: url('img/guitar.jpg');
+		background-size: cover;
+		background-position: left center;
+	}
