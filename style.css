@@ -148,6 +148,7 @@ body {
 	.carousel-item{
 		height: 450px;
 		background-color: gray;
+		text-align: center;
 	}
 
 	.carousel-item.item1{
@@ -166,4 +167,77 @@ body {
 		background-image: url('img/guitar.jpg');
 		background-size: cover;
 		background-position: left center;
+	}
+
+	.carousel-item .intro h2{
+		font-size: 30px;
+		color:white;
+	}
+	.carousel-item .intro h3{
+		font-size: 22px;
+		color:white;
+		margin-top: 18px;
+		margin-bottom: 48px;
+	}
+	.carousel-item .intro a{
+		font-size: 16px;
+		color:white;
+		border: 2px solid white;
+		box-sizing: border-box;
+		text-decoration: none;
+		padding:10px 30px;
+	}
+
+	.carousel-item .intro a:hover{
+		border: 2px solid #881bdd;
+		background-color:#881bdd;
+	}
+
+	.carousel-item .intro{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.carousel-item .helper{
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+
+	.portfolio-list h2{
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 50px;
+	}
+
+	.portfolio-list i{
+		color:gray;
+	}
+
+	.portfolio-list .row{
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 70px;
+	}
+
+	.course{
+		display: block;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+		margin-bottom: 50px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.course .course-image{
+		display: block;
+	}
+
+	.course .info{
+		padding: 10px;
+	}
+
+	.course .info h4{
+		color:#4a4a4a;
+		font-size: 18px;
+		margin-bottom: 0px;		
 	}
