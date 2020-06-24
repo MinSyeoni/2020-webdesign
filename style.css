@@ -1,6 +1,7 @@
-body {
-  margin: 0;
-  font-family: 'Noto Sans KR', sans-serif;
+* {
+box-sizing: border-box;
+font-family: 'Noto Sans KR', sans-serif;
+border: none;
 }
 
 .hero-header {
@@ -10,7 +11,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
- 
 }
 
 .hero-header .helper {
@@ -36,6 +36,7 @@ body {
 #links a:not(:last-child){
 	margin-right: 10px;
 }
+
 #logo {
   color: white;
   font-size: 28px;
@@ -79,165 +80,192 @@ body {
 }
 
 .logo{
-		margin-top: 50px;
-		margin-bottom: 40px;
-	}
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
 
-	.text{
-		text-align: center;
-		font-size: 16px;
-		margin-bottom: 20px;
+.text{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
 		
-	}
+}
 
-	.text a{
-		font-size: 19px;
-		text-decoration: none;
-		color: #AAAAAA;
-		margin-right: 20px;
-		margin-left: 20px;
-	}
+.text a{
+	font-size: 19px;
+	text-decoration: none;
+	color: #AAAAAA;
+	margin-right: 20px;
+	margin-left: 20px;
+}
 
-	.text a:hover{
-		color: #881bdd;
-		text-decoration: none;
-	}
+.text a:hover{
+	color: #881bdd;
+	text-decoration: none;
+}
 
-	.text b{
-		color:black;
-		border-bottom: 4px solid  #881bdd;
-	}
+.text b{
+	color:black;
+	border-bottom: 4px solid  #881bdd;
+}
 
-	.text-black{
-		text-align: center;
-		font-size: 16px;
-		margin-bottom: 20px;
-		
-	}
+.text-black{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
 
-	.text-black a{
-		font-size: 19px;
-		text-decoration: none;
-		color: #AAAAAA;
-		margin-right: 20px;
-		margin-left: 20px;
-	}
+.text-black a{
+	font-size: 19px;
+	text-decoration: none;
+	color: #AAAAAA;
+	margin-right: 20px;
+	margin-left: 20px;
+}
 
-	.text-black a:hover{
-		color: #881bdd;
-		text-decoration: none;
-	}
+.text-black a:hover{
+	color: #881bdd;
+	text-decoration: none;
+}
 
-	.text-black b{
-		color:white;
-		border-bottom: 4px solid  #881bdd;
-	}
+.text-black b{
+	color:white;
+	border-bottom: 4px solid  #881bdd;
+}
 
-	.backgroundblack{
-		background-color: white;
-	}
+.backgroundblack{
+	background-color: white;
+}
 
 /*반응형으로 바꾸기*/
-	.profileimg{
-		margin-top:100px;
-		margin-left: 80px;
-	}
-
+.profileimg{
+	margin-top:100px;
+	margin-left: 80px;
+}
 
 /*포폴 페이지 carousel*/
-	.carousel-item{
-		height: 450px;
-		background-color: gray;
-		text-align: center;
-	}
+.carousel-item{
+	height: 450px;
+	background-color: gray;
+	text-align: center;
+}
 
-	.carousel-item.item1{
-		background-image: url('img/cooking.jpg');
-		background-size: cover;
-		background-position: center center;
-	}
+.carousel-item.item1{
+	background-image: url('img/cooking.jpg');
+	background-size: cover;
+	background-position: center center;
+}
 
-	.carousel-item.item2{
-		background-image: url('img/makeup.jpg');
-		background-size: cover;
-		background-position: center top;
-	}
+.carousel-item.item2{
+	background-image: url('img/makeup.jpg');
+	background-size: cover;
+	background-position: center top;
+}
 
-	.carousel-item.item3{
-		background-image: url('img/guitar.jpg');
-		background-size: cover;
-		background-position: left center;
-	}
+.carousel-item.item3{
+	background-image: url('img/guitar.jpg');
+	background-size: cover;
+	background-position: left center;
+}
 
-	.carousel-item .intro h2{
-		font-size: 30px;
-		color:white;
-	}
-	.carousel-item .intro h3{
-		font-size: 22px;
-		color:white;
-		margin-top: 18px;
-		margin-bottom: 48px;
-	}
-	.carousel-item .intro a{
-		font-size: 16px;
-		color:white;
-		border: 2px solid white;
-		box-sizing: border-box;
-		text-decoration: none;
-		padding:10px 30px;
-	}
+.carousel-item .intro h2{
+	font-size: 30px;
+	color:white;
+}
 
-	.carousel-item .intro a:hover{
-		border: 2px solid #881bdd;
-		background-color:#881bdd;
-	}
+.carousel-item .intro h3{
+	font-size: 22px;
+	color:white;
+	margin-top: 18px;
+	margin-bottom: 48px;
+}
 
-	.carousel-item .intro{
-		display: inline-block;
-		vertical-align: middle;
-	}
+.carousel-item .intro a{
+	font-size: 16px;
+	color:white;
+	border: 2px solid white;
+	box-sizing: border-box;
+	text-decoration: none;
+	padding:10px 30px;
+}
 
-	.carousel-item .helper{
-		display: inline-block;
-		height: 100%;
-		vertical-align: middle;
-	}
+.carousel-item .intro a:hover{
+	border: 2px solid #881bdd;
+	background-color:#881bdd;
+}
 
-	.portfolio-list h2{
-		text-align: center;
-		margin-top: 70px;
-		margin-bottom: 50px;
-	}
+.carousel-item .intro{
+	display: inline-block;
+	vertical-align: middle;
+}
 
-	.portfolio-list i{
-		color:gray;
-	}
+.carousel-item .helper{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
 
-	.portfolio-list .row{
-		margin-left: 40px;
-		margin-right: 40px;
-		margin-bottom: 70px;
-	}
+.portfolio-list h2{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
 
-	.course{
-		display: block;
-		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
-		margin-bottom: 50px;
-		margin-right: 10px;
-		margin-left: 10px;
-	}
+.portfolio-list i{
+	color:gray;
+}
 
-	.course .course-image{
-		display: block;
-	}
+.portfolio-list .row{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 70px;
+}
 
-	.course .info{
-		padding: 10px;
-	}
+.course{
+	display: block;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+	margin-bottom: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
 
-	.course .info h4{
-		color:#4a4a4a;
-		font-size: 18px;
-		margin-bottom: 0px;		
-	}
+.course .course-image{
+	display: block;
+}
+
+.course .info{
+	padding: 10px;
+}
+
+.course .info h4{
+	color:#4a4a4a;
+	font-size: 18px;
+	margin-bottom: 0px;		
+}
+
+/*이메일 폼*/
+.email-form{
+	background-color: #EEEFF1;
+	border-radius: 5px;
+	width: 300px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px; 
+}
+
+.form-control{
+	font-size: 14px;
+	border-radius: 5px;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.submit-btn {
+	font-size: 14px;
+	background-color: #1BBC9B;
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px;
+}
