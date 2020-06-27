@@ -212,7 +212,7 @@ border: none;
 
 
 	.profile_content{
-		height:250px;
+		height:562px;
 	}
 }
 
@@ -229,6 +229,159 @@ border: none;
 	}
 }
 
+/*스킬 페이지*/
+
+.skillcol{
+	margin-top: 50px;
+}
+
+.skill h2{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.skillimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width:768px){
+	.skillcol{
+		float:left;
+	}
+
+	.programming{
+		height: 562px;
+	}
+
+	.design{
+		height: 562px;
+	}
+
+	.modeling{
+		height:562px;
+	}
+}
+
+@media (min-width: 992px){
+	.programming{
+		width:33.3%;
+		height: 600px;
+	}
+
+
+	.design{
+		width:33.3%;
+		height: 300px;
+	}
+
+	.modeling{
+		width:33.3%;
+		height: 300px;
+	}
+}
+
+.graph{
+	margin:50px 50px;
+}
+
+.blue{
+	background: #5abae6;
+}
+
+.red{
+	background: #d34e4e;
+}
+
+.green{
+	background: #9dbb19;
+}
+
+.yellow{
+	background: #f7b358;
+}
+
+span{
+	position: absolute;
+	display: inline-block;
+	width:60px;
+	bottom:0;
+}
+
+.graph{
+	position: relative;
+	height:400px;
+}
+
+.programming span:nth-of-type(1){
+	height:100%;
+	left:0px;
+}
+
+.programming span:nth-of-type(2){
+	height:80%;
+	left:70px;
+}
+
+.programming span:nth-of-type(3){
+	height:60%;
+	left:140px;
+}
+
+.programming span:nth-of-type(4){
+	height:20%;
+	left:210px;
+}
+
+.design span:nth-of-type(1){
+	height:100%;
+	left:0px;
+}
+
+.design span:nth-of-type(2){
+	height:80%;
+	left:70px;
+}
+
+.design span:nth-of-type(3){
+	height:60%;
+	left:140px;
+}
+
+.design span:nth-of-type(4){
+	height:20%;
+	left:210px;
+}
+
+.modeling span:nth-of-type(1){
+	height:100%;
+	left:0px;
+}
+
+.modeling span:nth-of-type(2){
+	height:80%;
+	left:70px;
+}
+
+.modeling span:nth-of-type(3){
+	height:60%;
+	left:140px;
+}
+
+.modeling span:nth-of-type(4){
+	height:20%;
+	left:210px;
+}
+
+.skill span{
+	font-size:20px;
+	line-height: 1.8em;
+	color: #fff;
+	text-align: center;
+	border-radius: 15px;
+}
 
 /*포폴 페이지 carousel*/
 .carousel-item{
