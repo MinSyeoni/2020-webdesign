@@ -485,27 +485,58 @@ span{
 
 /*이메일 폼*/
 .email-form{
-	background-color: #EEEFF1;
+	background-color: black;
 	border-radius: 5px;
-	width: 300px;
+	width: 700px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px; 
+	margin-top: 50px; 
 }
 
 .form-control{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 14px;
 	border-radius: 5px;
-	width: 100%;
+	width: 50%;
 	margin-bottom: 10px;
 	padding: 10px;
 }
 
 .submit-btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 14px;
-	background-color: #1BBC9B;
+	background-color: gray;
 	border-radius: 5px;
-	width: 100%;
+	width: 50%;
 	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.submit-btn:hover{
+	background-color: #881bdd;
+}
+
+.form-group p{
+	text-align: center;
+	color: white;
+	font-family: 'Gothic A1', sans-serif;
+	line-height: 80%;
+}
+
+.atag{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.form-group a{
+	font-family: 'Kalam', cursive;
+	font-size: 26px;
+	color: white;
+	text-decoration: none;
+	border-bottom: 4px solid red;
 }
