@@ -43,6 +43,13 @@ border: none;
 	margin-right: 10px;
 }
 
+/*포폴 뒤로가기 버튼*/
+#links_port{
+	padding :50px 0px 0px 80px;
+	top:0;
+	left:0px;
+}
+
 #logo {
   color: white;
   font-size: 28px;
@@ -483,6 +490,10 @@ span{
 	margin-bottom: 0px;		
 }
 
+.carousel a{
+	height: 250px;
+}
+
 /*이메일 폼*/
 .email-form{
 	background-color: black;
@@ -539,4 +550,23 @@ span{
 	color: white;
 	text-decoration: none;
 	border-bottom: 4px solid red;
+}
+
+/*포폴 드로잉 페이지*/
+.port_title h1{
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
+}
+
+.port_title p{
+	text-align: center;
+	font-size: 14px;
+}
+
+.drawimg img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
 }
