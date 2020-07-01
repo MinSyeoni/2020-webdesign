@@ -318,23 +318,28 @@ span{
 }
 
 .graph{
+	display: block;
 	position: relative;
 	height:400px;
 }
 
 .programming span:nth-of-type(1){
 	height:50%;
-	left:0px;
 }
 
 .programming span:nth-of-type(2){
 	height:80%;
-	left:70px;
+	margin-left:70px;
 }
 
 .programming span:nth-of-type(3){
 	height:40%;
-	left:140px;
+	margin-left:140px;
+}
+
+.programming span:nth-of-type(4){
+	height:20%;
+	margin-left:210px;
 }
 
 .design span:nth-of-type(1){
