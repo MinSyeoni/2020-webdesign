@@ -381,21 +381,21 @@ span{
 }
 
 .carousel-item.item1{
-	background-image: url('img/cooking.jpg');
+	background-image: url('img/3d1.png');
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item.item2{
-	background-image: url('img/makeup.jpg');
+	background-image: url('img/3d6.png');
 	background-size: cover;
-	background-position: center top;
+	background-position: center center;
 }
 
 .carousel-item.item3{
-	background-image: url('img/guitar.jpg');
+	background-image: url('img/draw4.jpg');
 	background-size: cover;
-	background-position: left center;
+	background-position: center center;
 }
 
 .carousel-item .intro h2{
