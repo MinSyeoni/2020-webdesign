@@ -553,3 +553,41 @@ span{
 	margin-left: auto;
 	margin-bottom: 40px;
 }
+
+/*포폴 앱디자인*/
+.appimg img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.app_atag{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+
+}
+
+.app_atag a{
+	color: #5b5b5b;
+}
+
+.app_atag a:hover{
+	color: #881bdd;
+	text-decoration: none;
+	border-bottom: 2px solid  #881bdd;
+}
+
+.app_p{
+	width:650px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.app_p b{
+	color: #881bdd;
+}
